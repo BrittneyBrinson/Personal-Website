@@ -13,8 +13,12 @@ body{
 .font-color{
     color: black;
 }
-#img {
+#main-img {
     max-width: 1600px;
     max-height: 600px;
+}
+.float-img{
+    max-height: 180px;
+
 }
 
