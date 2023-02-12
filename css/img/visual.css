@@ -21,10 +21,10 @@ body{
     margin: 0 20px 0px 0px;
     font-family: 'Inter', sans-serif;
 }
-#box-two {
-    margin: 0 20px 0px 20px;
-    font-family: 'Inter', sans-serif;
-}
+/*#box-two {*/
+/*    margin: 0 20px 0px 20px;*/
+/*    font-family: 'Inter', sans-serif;*/
+/*}*/
 #box-three {
     margin: 0 20px 0px 20px;
     font-family: 'Inter', sans-serif;
@@ -42,7 +42,7 @@ li, a {
 a:hover {
     cursor: pointer;
 }
-img {
+.img {
     border-radius: 4px;
     height: 420px;
     width: 1400px;
@@ -77,9 +77,9 @@ img {
 .text{
     font-family: 'Inter', sans-serif;
     text-align: center;
+    font-size: 20px;
     padding: 0;
     margin: 20px 0 0 50%;
-    /*margin-left: 50%;*/
     transform: translateX(-200%);
     opacity: 0;
     animation: slide-in-anim 1.5s ease-out forwards;
@@ -103,6 +103,7 @@ img {
 #name {
     color: #E47EB8;
     font-weight: bold;
+    font-size: 60px;
     font-family: 'Jura', sans-serif;
     transform: translateX(-200%);
     opacity: 0;
@@ -110,5 +111,21 @@ img {
 }
 .white-text {
     color: white;
+}
+.bird {
+    float: inside;
+    height: 300px;
+    width: 300px;
+    filter:drop-shadow(16px 16px 10px #E47EB8);
+    transform: translateX(-200%);
+    opacity: 0;
+    animation: slide-in-anim 1.5s ease-out forwards;
+}
+#selfie {
+    float: left;
+    transform: translateX(600%);
+    margin: 0 0 0 200px;
+    opacity: 0;
+    animation: slide-in-anim 1.5s ease-out forwards;
 }
 
