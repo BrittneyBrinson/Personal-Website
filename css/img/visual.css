@@ -21,10 +21,6 @@ body{
     margin: 0 20px 0px 0px;
     font-family: 'Inter', sans-serif;
 }
-/*#box-two {*/
-/*    margin: 0 20px 0px 20px;*/
-/*    font-family: 'Inter', sans-serif;*/
-/*}*/
 #box-three {
     margin: 0 20px 0px 20px;
     font-family: 'Inter', sans-serif;
@@ -47,7 +43,7 @@ a:hover {
     height: 420px;
     width: 1400px;
     background-size: cover;
-    filter:drop-shadow(16px 16px 10px black)
+    filter:drop-shadow(16px 16px 10px black);
 
 }
 .container {
@@ -127,5 +123,6 @@ a:hover {
     margin: 0 0 0 200px;
     opacity: 0;
     animation: slide-in-anim 1.5s ease-out forwards;
+    filter:drop-shadow(16px 16px 10px #3598A8);
 }
 
